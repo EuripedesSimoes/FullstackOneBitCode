@@ -1,0 +1,11 @@
+@charset "UTF-8";
+body {
+background-image: url("https://cdn.mos.cms.futurecdn.net/prWapTWeTx6CBpLmh7akhL-1024-80.jpg.webp");
+background-repeat: no-repeat;
+background-size: cover;}
+
+h1 {
+border: 2px solid yellow;
+border-radius: 5px;}
+
+

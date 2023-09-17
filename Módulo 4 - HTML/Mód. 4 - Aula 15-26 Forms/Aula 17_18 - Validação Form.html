@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validar formularios</title>
+    <style>
+        body {
+            background-color: gray;
+        }
+    </style>
+</head>
+
+<body>
+    <form action="https://www.google.com/search"> Preencha o campo para poder pesquisar
+        <hr>
+        <input type="text" name="q" required>
+        <input type="button" name="q" value="Pesquisar">
+        <hr>
+    </form>
+    <form action="/action_page.php">
+        <input type="email" name="user_email" required>
+        <input type="submit" name="user_email" value="Pesquisar email">
+        <hr>
+        <input type="button" onclick="alert('hello wordx')" value="Click Me!">
+    </form>
+</body>
+
+</html>

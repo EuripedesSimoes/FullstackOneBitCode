@@ -20,8 +20,8 @@ let i = 0
 { i++
     livro += (i + 1) + "ª - " +  estante[i] + "\n"
     */
-for (let i = 0; i < estante.length; i++) {
-    livro += (i + 1) + "ª - " +  estante[i] + "\n" 
+for (let c = 0; c < estante.length; c++) {
+    livro += (c + 1) + "ª - " +  estante[c] + "\n"
 }
 
 opcao = prompt("Livros:\n" + livro + "Selecione uma das opcoes abaixo \n" + "a) adicionar livro \n" + "b) Tirar livro \n" + "c) Sair")
@@ -34,7 +34,7 @@ break
 case "c": 
 alert("Você escolheu sair")
 break
-
 }
+
 
 } while (opcao !== "c")

@@ -66,7 +66,7 @@ default: alert("Fim do calculo")
 }
 }
 
-
+alert("Fim dos calculos")
 
 /*
 if (calc == "b") {

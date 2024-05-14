@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM 1</title>
+    <link rel="stylesheet" href="domcss1.css">\
+    <script src="domjs1.js"></script>
+</head>
+
+<body>
+    <div class="div1" onmouseenter="mouseentrou">
+    </div>
+    <div>
+        <label for="">Entrada do mouse</label>
+        <input type="text" id="aomouseentrar" onmouseenter="alert('O mouse Entrou')">
+        <p id="p1">Paragrafo a se copiar</p>
+        <p id="p2">indio come xota</p>
+        <hr>
+        <br>
+        <input type="text" id="aomouseentrar2" onmouseenter="umouseentrou()">
+    </div>
+    <hr>
+    <br>
+    <!--1 passo: Criar uma variavel e colocar o getelement certo 
+    2 passo: Colocar write ou alert + o innerText do negocio
+    -->
+    <script>
+        /*window.document.write(window.document.URL)*/
+        /*const ent1 = window.document.getElementsByTagName('p')[0]
+        window.document.write(ent1.innerText)*/
+        let ent2 = window.document.getElementById('p2')
+        window.document.write(ent2.innerText)
+        ent2.style.color = 'green'
+    </script>
+    <hr>
+    <br>
+
+
+</body>
+
+</html>

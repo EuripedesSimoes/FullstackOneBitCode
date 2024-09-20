@@ -1,6 +1,7 @@
 @charset "UTF-8";
 
 body{margin: 0 auto;}
+
 main{max-width: 1000px;
 display: flex;
 background-color: brown;}
@@ -10,8 +11,7 @@ background-color: brown;}
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-bottom: 2px solid rgba(80, 37, 37, 0.368)
-    ;
+    border-bottom: 2px solid rgba(80, 37, 37, 0.368);
 }
 .img {
 display: block;
@@ -42,14 +42,14 @@ li:hover {
     background-color: rgb(111, 61, 114);
     transition: 0.4s;}
 
-.mainc {
+.main_flex {
     flex-wrap: wrap;
-    margin: 0 auto;;
+    margin: 0 auto;
 }
 
-.mainc > div{
+.main_flex > div{
     padding: 0 auto;
-    flex: 1 1 300px;
+    /*flex: 1 1 300px;*/
     margin: 0 auto;
     border: 3px solid black;
 }
